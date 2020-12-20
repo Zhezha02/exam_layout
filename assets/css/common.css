@@ -1,0 +1,14 @@
+:root {
+  --accent-color: #fa4a0c;
+  --heading-color: #252b42;
+  --text-color: #737373;
+  --second-bg-color: #fafafa;
+
+  
+  font-size: 24px;
+  font-family: 'Montserrat', sans-serif;
+}
+/* 
+font-family: 'Poppins', sans-serif; desktop main page heading
+font-family: 'Roboto', sans-serif; footer
+ */
