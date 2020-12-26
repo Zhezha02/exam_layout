@@ -1,0 +1,12 @@
+.page-navigation {
+  margin: 17px 16px;
+  padding: 13px 8px;
+  display: flex;
+  justify-content: space-between;
+}
+.page-logo {
+}
+.navigation-btn {
+  border: none;
+  background-color: inherit;
+}
