@@ -14,7 +14,7 @@ font-family: 'Roboto', sans-serif; footer
  */
  .heading {
   font-size: 1.67rem; /*40px*/
-  line-height: 2.375rem; /*57px*/
+  line-height: 1.425; /*57px*/
   font-weight: 700;
   color: var(--heading-color);
  }
