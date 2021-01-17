@@ -4,7 +4,6 @@
   --text-color: #737373;
   --second-bg-color: #fafafa;
 
-  
   font-size: 20px; /*24px */
   font-family: 'Montserrat', sans-serif;
 }
@@ -12,20 +11,29 @@
 font-family: 'Poppins', sans-serif; desktop main page heading
 font-family: 'Roboto', sans-serif; footer
  */
- .heading {
+* {
+  box-sizing: border-box;
+}
+
+.heading {
   font-size: 1.67rem; /*40px*/
   line-height: 1.425; /*57px*/
   font-weight: 700;
   color: var(--heading-color);
- }
- .text-content {
-   font-size: 1rem;
-   line-height: 1.6;
-   font-weight: 500;
-   color: var(--text-color);
- }
- .accent-btn{
+}
+.sub-heading {
+  font-size: 24px;
+  line-height: 1.59;
+  font-weight: 500;
+}
+.text-content {
+  font-size: 1rem;
+  line-height: 1.6;
+  font-weight: 500;
+  color: var(--text-color);
+}
+.accent-btn {
   border: none;
   background-color: var(--accent-color);
   color: white;
- }
+}
