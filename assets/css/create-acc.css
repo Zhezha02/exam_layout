@@ -3,10 +3,9 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-content: center;
 }
 .create-acc-description {
-  padding: 65px 1.5rem;
+  padding: 65px 30px;
 }
 .creating-acc-heading {
   padding: 2rem 0;
