@@ -1,0 +1,19 @@
+.creating-account {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+}
+.create-acc-description {
+  padding: 65px 1.5rem;
+}
+.creating-acc-heading {
+  padding: 2rem 0;
+}
+.create-acc-photo-wrapper {
+}
+.create-acc-photo { /* ДОДЕЛАТЬ КАРТИНКИ!!!*/
+ max-width: 100%;
+ /* box-shadow: 28px 38px 16px 55px rgba(214, 214, 214, 0.41); */
+}
