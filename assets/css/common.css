@@ -1,6 +1,6 @@
 :root {
   --accent-color: #fa4a0c;
-  --heading-color: #252b42;
+  --second-accent-color: #252b42;
   --text-color: #737373;
   --second-bg-color: #fafafa;
 
@@ -19,7 +19,7 @@ font-family: 'Roboto', sans-serif; footer
   font-size: 1.67rem; /*40px*/
   line-height: 1.425; /*57px*/
   font-weight: 700;
-  color: var(--heading-color);
+  color: var(--second-accent-color);
 }
 .accent-heading {
   font-size: 1rem;
