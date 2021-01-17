@@ -21,6 +21,12 @@ font-family: 'Roboto', sans-serif; footer
   font-weight: 700;
   color: var(--heading-color);
 }
+.accent-heading {
+  font-size: 1rem;
+  line-height: 1.5;
+  font-weight: 700;
+  color: var(--accent-color);
+}
 .sub-heading {
   font-size: 24px;
   line-height: 1.59;
@@ -37,3 +43,4 @@ font-family: 'Roboto', sans-serif; footer
   background-color: var(--accent-color);
   color: white;
 }
+
