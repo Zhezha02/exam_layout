@@ -1,0 +1,24 @@
+footer {
+  padding: 60px;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+.page-logo {
+  display: none;
+}
+.social-media-icons {
+  min-width: 70%;
+  align-self: center;
+  display: flex;
+  justify-content: space-between;
+}
+
+
+.rights {
+  margin-top: 8px;
+  font-size: 12px;
+  line-height: 1.5;
+  font-weight: 700;
+  font-family: 'Roboto', sans-serif;
+}
