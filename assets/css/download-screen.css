@@ -1,0 +1,38 @@
+.download {
+  padding: 110px 24px;
+  background-color: var(--second-accent-color);
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.download-heading {
+  padding: 10px;
+  color: #ffffff;
+}
+.download-content {
+  padding: 10px;
+  margin-bottom: 50px;
+  color: #bdbdbd;
+}
+.download-buttons {
+  display: flex;
+  justify-content: space-between;
+}
+.buying-btn,
+.trial-period-btn {
+  padding: 16px;
+  border-radius: 10px;
+  font-size: 16px;
+  font-weight: 1.75;
+  font-weight: 700;
+}
+.buying-btn {
+  flex-basis: 40%;
+}
+.trial-period-btn {
+  flex-basis: 55%;
+  color: #ffffff;
+  border: 1px solid #ffffff;
+  background-color: inherit;
+}
