@@ -3,13 +3,12 @@
   --second-accent-color: #252b42;
   --text-color: #737373;
   --second-bg-color: #fafafa;
+  --light-text-color: #f7f7f7;
 
   font-size: 20px; /*24px */
   font-family: 'Montserrat', sans-serif;
 }
-/* 
-font-family: 'Poppins', sans-serif; desktop main page heading
- */
+
 * {
   box-sizing: border-box;
 }
@@ -43,3 +42,14 @@ font-family: 'Poppins', sans-serif; desktop main page heading
   color: white;
 }
 
+@media screen and (min-width: 768px) {
+  :root {
+    font-size: 22px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  :root {
+    font-size: 24px;
+  }
+}
