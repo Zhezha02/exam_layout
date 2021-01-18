@@ -4,7 +4,7 @@ footer {
   flex-direction: column;
   text-align: center;
 }
-.page-logo {
+.footer-page-logo {
   display: none;
 }
 .social-media-icons {
