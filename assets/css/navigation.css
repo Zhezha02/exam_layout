@@ -1,12 +1,25 @@
 .page-navigation {
-  margin: 17px 16px;
-  padding: 13px 8px;
+  padding: 30px 24px;
   display: flex;
   justify-content: space-between;
+  align-items: center;
 }
 .page-logo {
 }
 .navigation-btn {
   border: none;
   background-color: inherit;
+  padding: 0;
+  display: inline;
+}
+
+@media (min-width: 576px) {
+  .page-navigation {
+    padding: 35px 28px 35px 40px;
+  }
+}
+@media (min-width: 1200px) {
+  .page-navigation {
+    padding: 50px 40px 50px 90px;
+  }
 }
