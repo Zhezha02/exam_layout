@@ -2,13 +2,27 @@
   max-width: 100%;
   text-align: center;
 }
-.app-view {
-  margin-top: -240px;
+.app-img-wrapper {
+  /* margin-top: -240px; */
+  /* position: relative;
+  left: -5%; */
+  max-width: 50%;
+  width: 100%;
+  margin: 0 auto;
+}
+.responsive-app-img-helper {
   position: relative;
-  left: -5%;
+  padding-top: 78%;
 }
 .app-img {
   max-width: 100%;
+  width: inherit;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
 }
 
 .start-instruction-heading {
