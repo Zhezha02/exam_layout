@@ -41,6 +41,9 @@
   background-color: var(--accent-color);
   color: white;
 }
+.jc-center {
+  justify-content: center;
+}
 
 @media screen and (min-width: 768px) {
   :root {
