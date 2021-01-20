@@ -1,5 +1,5 @@
 .download {
-  padding: 110px 24px;
+  padding: 110px 0;
   background-color: var(--second-accent-color);
   text-align: center;
   display: flex;
@@ -7,32 +7,61 @@
   justify-content: center;
 }
 .download-heading {
-  padding: 10px;
+  padding: 10px 0;
   color: #ffffff;
 }
 .download-content {
-  padding: 10px;
+  padding: 10px 0;
   margin-bottom: 50px;
   color: #bdbdbd;
 }
 .download-buttons {
+  margin: 0 20px;
   display: flex;
+  flex-flow: row wrap;
   justify-content: space-between;
 }
-.buying-btn,
-.trial-period-btn {
+.accent-download-btn,
+.non-accent-download-btn {
   padding: 16px;
   border-radius: 10px;
   font-size: 16px;
-  font-weight: 1.75;
+  line-height: 1.75;
   font-weight: 700;
+
+  cursor: pointer;
 }
-.buying-btn {
+.accent-download-btn {
   flex-basis: 40%;
 }
-.trial-period-btn {
+
+.non-accent-download-btn {
   flex-basis: 55%;
   color: #ffffff;
   border: 1px solid #ffffff;
   background-color: inherit;
+  box-sizing: border-box;
+}
+.accent-download-btn:hover,
+.non-accent-download-btn:hover {
+  color: var(--accent-color);
+  background-color: #ffffff;
+  border-color: #ffffff;
+  transition: all 0.5s ease-out;
+}
+
+/* @media screen and (min-width: 576px) {
+  .download-buttons {
+    min-width: 50%;
+  }
+} */
+@media screen and (min-width: 768px) {
+  .download {
+    background-image: url(../images/download-bg-color.png);
+    background-size: cover;
+    background-position: center;
+  }
+  .download-content {
+    color: #ffffff;
+  }
 }
