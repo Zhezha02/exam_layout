@@ -1,0 +1,65 @@
+.using-app {
+  padding-bottom: 130px;
+}
+
+.app-unit {
+  padding-top: 65px;
+}
+
+.unit-description {
+  margin-bottom: 60px;
+  height: inherit;
+
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+.unit-heading {
+  margin: 40px 0;
+}
+
+.unit-photo-wrapper {
+  max-width: 100%;
+  text-align: center;
+}
+
+.unit-photo {
+  max-width: 100%;
+  box-shadow: 50px 30px 150px rgba(46, 4, 4, 0.15);
+  border-radius: 41px;
+}
+
+.creating-account {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+@media screen and (min-width: 576px) {
+  .using-app {
+    padding-bottom: 150px;
+  }
+}
+@media screen and (min-width: 992px) {
+  .using-app {
+    padding-bottom: 170px;
+  }
+  .using-app :nth-child(even) .row {
+    flex-direction: row-reverse;
+  }
+  .using-app :nth-child(even) .unit-description {
+    position: relative;
+    left: 50px;
+  }
+  .unit-description {
+    margin-bottom: 0;
+    text-align: left;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .using-app {
+    padding-bottom: 200px;
+  }
+}
