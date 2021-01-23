@@ -59,6 +59,11 @@
    max-width: 85%;
    margin: 0 auto;
   }
+  .start-instruction-heading::before {
+
+    bottom: none;
+    top: 0;
+  }
 }
 @media screen and (min-width: 992px) {
   .app-img-wrapper {
@@ -67,7 +72,6 @@
   }
   .start-instruction-heading {
     max-width: 66%;
-
    }
 }
 @media screen and (min-width: 1200px) {
