@@ -27,7 +27,7 @@
 }
 .sub-heading {
   font-size: 24px;
-  line-height: 1.59;
+  line-height: 1.6;
   font-weight: 500;
 }
 .text-content {
@@ -36,11 +36,26 @@
   font-weight: 500;
   color: var(--text-color);
 }
-.accent-btn {
+.accent-link,
+.non-accent-link {
+  padding: 16px;
+  color: #ffffff;
+  font-weight: 700;
+}
+.accent-link {
+  background-color: var(--accent-color);
+  border: 1px solid var(--accent-color);
+}
+.non-accent-link {
+  background-color: inherit;
+  border:1px solid #ffffff
+}
+
+/* .accent-btn {
   border: 1px solid var(--accent-color);
   background-color: var(--accent-color);
   color: white;
-}
+} */
 .jc-center {
   justify-content: center;
 }
