@@ -26,8 +26,9 @@
 
 .unit-photo {
   max-width: 100%;
-  box-shadow: 50px 30px 150px rgba(46, 4, 4, 0.15);
-  border-radius: 41px;
+  /* box-shadow: 50px 30px 150px rgba(46, 4, 4, 0.15);
+  border-radius: 41px; */
+  filter: drop-shadow(50px 30px 150px rgba(46, 4, 4, 0.15));
 }
 
 .creating-account {
@@ -35,6 +36,9 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
+}
+.fd-row-reverse{
+  flex-direction: row-reverse;
 }
 
 @media screen and (min-width: 576px) {
@@ -45,13 +49,6 @@
 @media screen and (min-width: 992px) {
   .using-app {
     padding-bottom: 170px;
-  }
-  .using-app :nth-child(even) .row {
-    flex-direction: row-reverse;
-  }
-  .using-app :nth-child(even) .unit-description {
-    position: relative;
-    left: 50px;
   }
   .unit-description {
     margin-bottom: 0;
