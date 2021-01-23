@@ -3,16 +3,13 @@
   text-align: center;
 }
 .app-img-wrapper {
-  /* margin-top: -240px; */
-  /* position: relative;
-  left: -5%; */
-  max-width: 50%;
-  width: 100%;
   margin: 0 auto;
+  margin-top: -240px;
+  max-width: 100%;
 }
 .responsive-app-img-helper {
   position: relative;
-  padding-top: 78%;
+  padding-top: 114%;
 }
 .app-img {
   max-width: 100%;
@@ -41,4 +38,40 @@
   left: 0;
   right: 0;
   width: 100%;
+}
+
+@media screen and (min-width: 576px) {
+  .app-img-wrapper {
+    max-width: 80%;
+    margin-top: -260px;
+  }
+  .start-instruction-heading {
+    padding:40px 60px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .app-img-wrapper {
+    max-width: 70%;
+    margin-top: -200px;
+  }
+  .start-instruction-heading {
+   max-width: 85%;
+   margin: 0 auto;
+  }
+}
+@media screen and (min-width: 992px) {
+  .app-img-wrapper {
+    max-width: 50%;
+    margin-top: -200px;
+  }
+  .start-instruction-heading {
+    max-width: 66%;
+
+   }
+}
+@media screen and (min-width: 1200px) {
+  .app-img-wrapper {
+    max-width: 45%;
+  }
 }
