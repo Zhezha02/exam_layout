@@ -1,10 +1,12 @@
 .download {
-  padding: 110px 0;
+  padding-top: 110px;
+  padding-bottom: 110px;
+  /* padding: 110px 0; */
   background-color: var(--second-accent-color);
   text-align: center;
-  display: flex;
+  /* display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: center; */
 }
 .download-heading {
   padding: 10px 0;
@@ -15,46 +17,35 @@
   margin-bottom: 50px;
   color: #bdbdbd;
 }
-.download-buttons {
-  margin: 0 20px;
+.download-links {
+  margin: 0 auto;
   display: flex;
-  flex-flow: row wrap;
-  justify-content: space-between;
+  justify-content: center;
 }
-.accent-download-btn,
-.non-accent-download-btn {
-  padding: 16px;
+.download-link {
+  min-width: 40%;
   border-radius: 10px;
   font-size: 16px;
   line-height: 1.75;
-  font-weight: 700;
-
-  cursor: pointer;
 }
-.accent-download-btn {
-  flex-basis: 40%;
+.download-link + .download-link {
+  margin-left: 16px;
+  min-width: 50%;
 }
-
-.non-accent-download-btn {
-  flex-basis: 55%;
-  color: #ffffff;
-  border: 1px solid #ffffff;
-  background-color: inherit;
-  box-sizing: border-box;
-}
-.accent-download-btn:hover,
-.non-accent-download-btn:hover {
-  color: var(--accent-color);
+.download-link:hover {
   background-color: #ffffff;
   border-color: #ffffff;
+  color: var(--accent-color);
   transition: all 0.5s ease-out;
 }
-
-/* @media screen and (min-width: 576px) {
-  .download-buttons {
-    min-width: 50%;
+@media screen and (min-width: 576px) {
+  .download-link {
+    min-width: 35%;
   }
-} */
+  .download-link + .download-link {
+    min-width: 45%;
+  }
+}
 @media screen and (min-width: 768px) {
   .download {
     background-image: url(../images/download-bg-color.png);
@@ -63,5 +54,27 @@
   }
   .download-content {
     color: #ffffff;
+  }
+  .download-link {
+    min-width: 30%;
+  }
+  .download-link + .download-link {
+    min-width: 40%;
+  }
+}
+@media screen and (min-width: 992px) {
+  .download-link {
+    min-width: 23%;
+  }
+  .download-link + .download-link {
+    min-width: 35%;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .download-link {
+    min-width: 17%;
+  }
+  .download-link + .download-link {
+    min-width: 23%;
   }
 }
