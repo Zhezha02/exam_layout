@@ -92,6 +92,7 @@
   }
   .welcome-link {
     min-width: 35%;
+    z-index: 10;
   }
   .non-accent-welcome-link {
     margin-left: 30px;
