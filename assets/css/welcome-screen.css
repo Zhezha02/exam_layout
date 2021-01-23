@@ -44,7 +44,7 @@
 .welcome-link:hover {
   border-color: var(--second-accent-color);
   background-color: var(--second-accent-color);
-  color: #ffffff;
+  color: var(--second-light-color);
   transition: all 0.5s ease-out;
 }
 
@@ -96,12 +96,12 @@
   }
   .non-accent-welcome-link {
     margin-left: 30px;
-    color: #ffffff;
-    border-color: #ffffff;
+    color: var(--second-light-color);
+    border-color: var(--second-light-color);
   }
   .welcome-link:hover{
-    border-color: #ffffff;
-    background-color: #ffffff;
+    border-color: var(--second-light-color);
+    background-color: var(--second-light-color);
     color: var(--accent-color);
     transition: all 0.5s ease-out;
   }

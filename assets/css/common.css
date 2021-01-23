@@ -4,6 +4,8 @@
   --text-color: #737373;
   --second-bg-color: #fafafa;
   --light-text-color: #f7f7f7;
+  --second-light-color: #ffffff;
+  --line-color: #e4e4e4;
 
   font-size: 20px;
   font-family: 'Montserrat', sans-serif;
@@ -39,7 +41,7 @@
 .accent-link,
 .non-accent-link {
   padding: 16px;
-  color: #ffffff;
+  color: var(--second-light-color);
   font-weight: 700;
 }
 .accent-link {
@@ -48,7 +50,7 @@
 }
 .non-accent-link {
   background-color: inherit;
-  border: 1px solid #ffffff;
+  border: 1px solid var(--second-light-color);
 }
 .jc-center {
   justify-content: center;

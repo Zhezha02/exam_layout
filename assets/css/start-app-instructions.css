@@ -32,7 +32,7 @@
 .start-instruction-heading::before {
   position: absolute;
   content: '';
-  background-color: #e4e4e4;
+  background-color: var(--line-color);
   height: 3px;
   bottom: 0;
   left: 0;
