@@ -5,7 +5,7 @@
   --second-bg-color: #fafafa;
   --light-text-color: #f7f7f7;
 
-  font-size: 20px; /*24px */
+  font-size: 20px;
   font-family: 'Montserrat', sans-serif;
 }
 
@@ -14,8 +14,8 @@
 }
 
 .heading {
-  font-size: 1.67rem; /*40px*/
-  line-height: 1.425; /*57px*/
+  font-size: 1.67rem;
+  line-height: 1.425;
   font-weight: 700;
   color: var(--second-accent-color);
 }
@@ -48,21 +48,26 @@
 }
 .non-accent-link {
   background-color: inherit;
-  border:1px solid #ffffff
+  border: 1px solid #ffffff;
 }
-
-/* .accent-btn {
-  border: 1px solid var(--accent-color);
-  background-color: var(--accent-color);
-  color: white;
-} */
 .jc-center {
   justify-content: center;
 }
 .align-items-center {
   align-items: center;
 }
-
+.text-overflow {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 4;
+  -webkit-box-orient: vertical;
+}
+.link-overflow {
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
 @media screen and (min-width: 768px) {
   :root {
     font-size: 22px;
