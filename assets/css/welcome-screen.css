@@ -2,7 +2,6 @@
   padding-top: 50px;
   padding-bottom: 253px;
   background-color: var(--second-bg-color);
-
   text-align: center;
 }
 
@@ -17,19 +16,17 @@
 }
 .welcome-screen-heading {
   padding: 27px 0;
-
   font-size: 1.5rem;
   line-height: 1.6;
   font-weight: 700;
   color: var(--second-accent-color);
 }
+
 .welcome-screen-links {
-  /* width: 100%; */
   display: flex;
   flex-direction: column;
   align-items: center;
 }
-
 .welcome-link {
   min-width: 60%;
   font-size: 1rem;
@@ -62,7 +59,6 @@
     flex-direction: row;
     justify-content: center;
   }
-
   .non-accent-welcome-link {
     margin-top: 0;
     margin-left: 20px;
@@ -99,7 +95,7 @@
     color: var(--second-light-color);
     border-color: var(--second-light-color);
   }
-  .welcome-link:hover{
+  .welcome-link:hover {
     border-color: var(--second-light-color);
     background-color: var(--second-light-color);
     color: var(--accent-color);

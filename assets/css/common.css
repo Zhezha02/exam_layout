@@ -28,7 +28,7 @@
   color: var(--accent-color);
 }
 .sub-heading {
-  font-size: 24px;
+  font-size: 1rem;
   line-height: 1.6;
   font-weight: 500;
 }
@@ -70,6 +70,7 @@
   white-space: nowrap;
   text-overflow: ellipsis;
 }
+
 @media screen and (min-width: 768px) {
   :root {
     font-size: 22px;

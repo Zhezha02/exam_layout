@@ -46,7 +46,7 @@
     margin-top: -260px;
   }
   .start-instruction-heading {
-    padding:40px 60px;
+    padding: 40px 60px;
   }
 }
 
@@ -56,11 +56,10 @@
     margin-top: -200px;
   }
   .start-instruction-heading {
-   max-width: 85%;
-   margin: 0 auto;
+    max-width: 85%;
+    margin: 0 auto;
   }
   .start-instruction-heading::before {
-
     bottom: none;
     top: 0;
   }
@@ -72,7 +71,7 @@
   }
   .start-instruction-heading {
     max-width: 66%;
-   }
+  }
 }
 @media screen and (min-width: 1200px) {
   .app-img-wrapper {

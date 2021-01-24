@@ -1,12 +1,8 @@
 .download {
   padding-top: 110px;
   padding-bottom: 110px;
-  /* padding: 110px 0; */
   background-color: var(--second-accent-color);
   text-align: center;
-  /* display: flex;
-  flex-direction: column;
-  justify-content: center; */
 }
 .download-heading {
   padding: 10px 0;

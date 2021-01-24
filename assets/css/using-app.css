@@ -37,7 +37,7 @@
   flex-direction: column;
   justify-content: center;
 }
-.fd-row-reverse{
+.fd-row-reverse {
   flex-direction: row-reverse;
 }
 
